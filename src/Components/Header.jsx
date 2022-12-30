@@ -1,11 +1,11 @@
-import world from '../images/world.svg'
+import worldImage from '../images/world.svg'
 
 const Header = () => {
-    return ( 
+    return (
         <header>
-            <img src={world} alt="World" />
+            <img src={worldImage} alt="World" />
         </header>
-     );
+    );
 }
  
 export default Header;
