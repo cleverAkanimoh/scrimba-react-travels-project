@@ -6,16 +6,17 @@
 }
 
 #root {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   display: grid;
   place-items: center;
+  /* justify-content: center; */
 }
 
 main {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
 }
 
 header {

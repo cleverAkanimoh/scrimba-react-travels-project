@@ -1,13 +1,16 @@
+import { useState } from 'react';
 import Header from './Components/Header';
 import MainContent from './Components/MainContent';
-// import Data from './Components/Data';
+import data from './Components/Data';
 
 const App = () => {
+
+  const [travels, setTravels] = useState(data);
 
   return (
     <main>
       <Header />
-      <MainContent />
+      <MainContent travels={travels} />
     </main>
   )
 }
