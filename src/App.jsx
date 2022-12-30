@@ -1,6 +1,6 @@
 import Header from './Components/Header';
 import MainContent from './Components/MainContent';
-import Data from './Components/Data';
+// import Data from './Components/Data';
 
 const App = () => {
 
@@ -12,4 +12,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
